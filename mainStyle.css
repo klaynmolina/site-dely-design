@@ -91,11 +91,10 @@ main {
 }
 
 
-
-.orcamentos {
-    text-align: center;
+.orcamento {
+    display: flex;
+    justify-content: center;
     margin-top: 5%;
-    height: 200px;
 }
 
 .fale {
