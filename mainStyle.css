@@ -64,41 +64,29 @@ main {
 
 .info {
     margin-top: 5%;
+    display: flex;    
+    justify-content: center;
 }
 
 .cartao {
-    display: inline-block;
     width: 30%;
-    margin-left: 2.5%;
 }
-
-.cartao h3 {
-    text-align: center;
-}
-
 .cartao img {
     width: 100%;
 }
 
-
 .cavaletes {
-    display: inline-block;
     width: 30%;
     margin-left: 2.5%;
 }
-
-
 .cavaletes img {
     width: 100%;
 }
 
-
 .panfletos {
-    display: inline-block;
     width: 30%;
     margin-left: 2.5%;
 }
-
 .panfletos img {
     width: 100%;
 }
