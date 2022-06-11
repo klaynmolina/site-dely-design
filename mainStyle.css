@@ -77,7 +77,7 @@ main {
 
 .cavaletes {
     width: 30%;
-    margin-left: 2.5%;
+    padding: 0 2.5%;
 }
 .cavaletes img {
     width: 100%;
@@ -85,7 +85,6 @@ main {
 
 .panfletos {
     width: 30%;
-    margin-left: 2.5%;
 }
 .panfletos img {
     width: 100%;
