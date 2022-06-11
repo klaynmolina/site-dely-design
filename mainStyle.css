@@ -51,24 +51,20 @@ main {
 
 .descricao .texto {
     float: right;
-    line-height: 40px;
-    padding: 70px;
     color: rgb(255, 255, 255);
     font-size: 130%;
     margin-right: 10%;
-    margin-top: 5%;
+    margin-top: 5%;    
+    text-align: center;
+}
+.descricao .texto p{
+    max-width: 500px;    
+    line-height: 70px;
 }
 
 .info {
     margin-top: 5%;
-    line-height: 20px;
 }
-
-section span {
-    color: rgb(9, 20, 38);
-    font-style: italic;
-}
-
 
 .cartao {
     display: inline-block;
