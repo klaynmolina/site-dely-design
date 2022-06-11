@@ -21,11 +21,11 @@ main {
     text-align: center;
 }
 
-.menu .opcoes {
+.opcoes {
     display: inline-block;
 }
 
-.menu .opcoes .link {
+.link {
     font-size: 25px;
     text-decoration: none;
     color: rgb(37, 38, 9);
@@ -33,7 +33,7 @@ main {
     margin-right: 50px;
 }
 
-.menu .opcoes .link:hover {
+.link:hover {
     background-color: rgb(9, 20, 38);
     border: 5px #DDBB64 solid;
     color: white;
@@ -44,12 +44,12 @@ main {
     background-color:rgb(9, 20, 38);
     height: 750px;    
 }
-.descricao .servicos{
+.servicos{
     margin-left: 12%;
     margin-top: 2%;
 }
 
-.descricao .texto {
+.texto {
     float: right;
     color: rgb(255, 255, 255);
     font-size: 130%;
@@ -57,7 +57,7 @@ main {
     margin-top: 5%;    
     text-align: center;
 }
-.descricao .texto p{
+.texto p{
     max-width: 500px;    
     line-height: 70px;
 }
@@ -96,30 +96,60 @@ main {
     justify-content: center;
     margin-top: 5%;
 }
+.orcamento img{
+    width: 400px;
+}
 
-.fale {
+.social{
+    display: flex;
+    height: 400px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.faleConosco {
     color: rgb(9, 20, 38);
     width: 100%;
     text-align: center;
+    padding: 0 5%;    
+}
+.faleConosco img {
+    width: 300px;
 }
 
-.social {
-    margin-bottom: 5%;
-    display: flex;   
-    justify-content: center;
+.telefone { 
+    width: 100%;
+    text-align: right;
+}
+.telefone img {
+    width: 60%;
+}
+.telefone a {
+    color: rgb(9, 20, 38);
+    font-size: 2em;
+    text-align: right;
 }
 
-.social .icone img {
-    width: 50px;
-    padding: 5px;
+.whatsapp { 
+    width: 100%;
+    text-align: left;
+}
+.whatsapp img {
+    width: 60%;    
+}
+.whatsapp a {
+    color: rgb(9, 20, 38);
+    font-size: 2em;
+    text-align: right;
 }
 
-.bot {
+.footer {
     background-color: rgb(9, 20, 38);
     height: 270px;
 }
 
-.bot .tel {
+.footer .contato {
     font-size: 30px;
     color: white;
     text-align: center;
@@ -129,16 +159,17 @@ main {
     margin-top: 5%;
 }
 
-.bot .tel h2 {
+.footer .contato h2 {
     color: white;
 }
 
-.bot .tel a {
-    text-decoration: none;
+.footer .contato a {
+    /* text-decoration: none; */
+    color: white;
 }
 
-.bot .imagem {
+.footer .logo {
     float: right;
     width: 30%;
-    margin-top: 5%;
+    margin: 5%;
 }
