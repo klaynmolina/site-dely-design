@@ -1,0 +1,113 @@
+@media (min-width:700px) and (max-width:1020px) {
+    .header img{
+        height: 300px;
+        width: 750px;
+    }
+    
+    .menu{
+        height: 200px;
+    }
+
+    .opcoes {
+        display: flex;
+        flex-direction: column;
+        height: 100px; 
+    }
+    
+    .link {
+        font-size: 40px;
+        line-height: 80px;
+        padding: 2px;
+        color: rgb(9, 20, 38);
+        text-decoration: underline;
+    }
+       
+    .descricao {
+        background-color: rgb(9, 20, 38);
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+    }
+    .servicos{
+        width: 0px;
+    }
+    
+    .texto {
+       margin-top: 0%;
+       margin-left: 5%;
+       font-size: 250%;
+    }
+    .texto p{
+        line-height: 45px;
+        color: rgb(255, 255, 255);
+        padding: 15%;
+        padding-top: 0%;
+    }
+    
+    .info {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .cartao img {
+        width: 250%;
+        margin-left: 40%;
+    }
+    .cavaletes img {
+        width: 250%;
+        margin: 10% 33%;
+    }
+    .panfletos img {
+        width: 250%;
+        margin-left: 43%;
+    }
+        
+    .orcamento img{
+        width: 100%;
+    }
+    
+    .social{
+        height: 350px;
+        display: flex;
+    }
+    
+    .faleConoscoH2 h2{
+        margin-top: 15%;
+        font-size: 3em;
+        text-align: center;
+        color: rgb(9, 20, 38);
+    }
+    .faleConosco{
+        width: 0%;
+    }
+    .faleConosco img {
+        width: 0%;
+    }
+     .telefone img {
+       width: 90%;
+    }
+    .whatsapp img {  
+       width: 80%;
+    }
+      
+    .footer {
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contato {
+        width: 80%;
+        font-size: 3em;
+    }
+
+    .logo {
+        width: 90%;       
+
+    }
+    .logo img{
+        width: 50%;        
+        margin-left: 25%;
+        margin-bottom: 5%;
+    }
+}

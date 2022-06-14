@@ -2,14 +2,13 @@ body {
     background-color: rgb(9, 20, 38);
     font-family: Arial, Helvetica, sans-serif;
 }
-
 main {
     max-width: 100%;
     background-color: rgb(255, 255, 255);
 }
 .header {
     text-align: center;
-    background-color: rgb(9, 20, 38)
+    background-color: rgb(9, 20, 38);
 }
 
 .menu {
@@ -108,6 +107,9 @@ main {
     align-items: center;
 }
 
+.faleConoscoH2 h2{
+    font-size: 0;
+}
 .faleConosco {
     color: rgb(9, 20, 38);
     width: 100%;
@@ -125,11 +127,6 @@ main {
 .telefone img {
     width: 60%;
 }
-.telefone a {
-    color: rgb(9, 20, 38);
-    font-size: 2em;
-    text-align: right;
-}
 
 .whatsapp { 
     width: 100%;
@@ -138,18 +135,13 @@ main {
 .whatsapp img {
     width: 60%;    
 }
-.whatsapp a {
-    color: rgb(9, 20, 38);
-    font-size: 2em;
-    text-align: right;
-}
 
 .footer {
     background-color: rgb(9, 20, 38);
     height: 270px;
 }
 
-.footer .contato {
+.contato {
     font-size: 30px;
     color: white;
     text-align: center;
@@ -159,16 +151,16 @@ main {
     margin-top: 5%;
 }
 
-.footer .contato h2 {
+.contato h2 {
     color: white;
 }
 
-.footer .contato a {
+.contato a {
     /* text-decoration: none; */
     color: white;
 }
 
-.footer .logo {
+.logo {
     float: right;
     width: 30%;
     margin: 5%;
